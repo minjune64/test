@@ -1,0 +1,472 @@
+@import url('../css/reset.css');
+
+@font-face {
+   font-family: 'GmarketSansMedium';
+   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'GmarketSansBold';
+   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'GmarketSansLight';
+   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+html{
+   scroll-behavior: smooth;
+}
+#wrap{
+   width: 100%;
+}
+/* 헤더영역 */
+#header_wrap{
+   width: 100%;
+}
+#banner{
+   position: relative; width: 100%; overflow: hidden;
+}
+#contents_wrap_1{
+   width: 100%; margin-top: 100px;
+}
+.contents_wrap_2{
+   width: 100%; margin-top: 150px;
+}
+.header{
+   display: flex; justify-content: center; align-items: end; margin-bottom: 30px;
+   height: 130px;
+}
+.logo{
+   margin-right:10%;
+}
+nav{
+   width: 50%; 
+   /* outline: 1px solid black; */
+}
+.gnb{
+   display:flex;
+   justify-content: space-between;
+   
+}
+.gnb li a{
+   font-size: 1.3em; font-weight: 500;
+}
+/* 배너영역 */
+
+.banner_img img{
+   width: 100%;
+}
+.banner_text{
+   position: absolute; top: 40%; left: 60%; font-size: 5em; width: 60%;
+   text-align:left;
+   transform: translateX(-50%); line-height: 1;
+   font-family:'GmarketSansMedium' ; color: white; 
+   /* outline: 1px solid black; */
+}
+.font_a{
+   font-family:'GmarketSansBold'; color:#94E240 ; font-weight: bolder;
+}
+.font_b{
+   font-family:'GmarketSansBold'; color:#FB9D17 ; font-weight: bolder;
+}
+/* 아이콘 영역 */
+.contents_1{
+   display: flex; justify-content: space-between; width: 75%; margin: 0 auto;
+   /* outline: 1px solid black; */
+}
+
+.icon{
+   display: flex; flex-direction: column; align-items: center;
+}
+
+.icon_text{
+   font-size: 1.2em; font-family:'GmarketSansMedium'; color: #929292;
+}
+/* 모어버튼 */
+.more_btn{
+   width: 88px; height: 40px; background-color:#424242 ; 
+   position: absolute; right: 0; top: 60px;
+}
+.more a{
+   color: white; padding: 15px 0 0 13px; line-height: 1.8;
+   font-size: 20px; 
+}
+
+/* 김밥류 분식류 식사류 영역 */
+#contents_1{
+   /* outline: 1px solid black; */
+   width: 1200px;
+   margin: 0 auto;
+   position: relative;
+}
+.box_1{
+   display: flex; justify-content: space-between; width: 1230px; margin: 0 auto;
+   /* outline: 1px solid black; */
+}
+.box_1_a_m{
+   display: flex;
+   justify-content: space-between;
+   width: 600px;
+}
+.box_1_b_m{
+   display: flex;
+   width: 600px;
+   justify-content: space-between;
+}
+.box_1 p{
+   text-align: center; font-family:'GmarketSansMedium'; color: #929292;
+   font-size: 1.4em;
+}
+.box_1 img{
+   border-radius: 10px;  margin-bottom: 20px; 
+}
+
+.box_1 p span{
+   color:#F50D0D ; font-weight: 600; margin-left: 10px;
+}
+
+.head_title{
+   text-align: center; width: 100%; height:120px ;
+   margin-bottom: 50px;
+   /* outline: 1px solid black; */
+}
+.sub_title{
+   font-family:'GmarketSansBold'; font-size: 4.3em; font-weight: bolder;color: black;
+   margin-bottom: 40px;
+}
+.sub_text{
+   font-family:'GmarketSansBold'; font-size: 1.8em; font-weight: bolder; color: #929292;
+}
+
+/* 브랜드 스토리 */
+.contents_wrap_3{
+   width: 100%; height: 614px;
+   background-image: url('../img/bottom_img.jpg');
+   background-size: 180%;
+   background-repeat: no-repeat;
+   background-position:-800px ;
+   margin-top: 100px;
+}
+.brand_title{
+   text-align: center;
+}
+.brand_title h2{
+   font-size: 80px;
+   font-family:'GmarketSansBold';
+   color:#FD9830 ;
+   font-weight:bolder;
+   margin-bottom: 30px;
+   padding-top: 250px;
+   }
+
+   .brand_title p{
+      color: white;
+      font-size: 20px;
+      line-height: 1.5;
+   }
+
+/* 이벤트 매장안내 영역 */
+
+.box_2 {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* 푸터 영역 */
+#footer_wrap{
+   width: 100%; height: 260px;
+   background-color: #444;
+   margin-top: 230px;
+   /* margin: 0 auto; */
+   display: flex;
+   justify-content: center;
+}
+#footer{
+   width: 1200px;
+   /* outline: 1px solid black; */
+   display: flex; 
+   /* justify-content: center;  */
+   padding-top: 80px;
+   /* margin-left: 15%; */
+}
+.f_logo{
+   margin-right: 37px;
+}
+.copy{
+   color: white; padding-top: 10px;
+}
+@media(max-width:1220px){
+   .header{width: 100%;}
+}
+@media(max-width:480px){
+   #wrap{
+      width: 480px;
+   }
+   .header{
+      display:block;
+      /* height: 176px; */
+      margin-bottom: 67px;
+   }
+   .gnb{
+      width: 480px;
+      /* outline: 1px solid black; */
+      justify-content: space-between;
+      background-color:#448A10 ;
+      padding: 10px;
+   }
+  
+   .gnb li a{
+      color: white;
+      font-size:15px ;
+   }
+   .banner_img img{
+     width: 480px; height: auto;
+   }
+   .logo img{
+      margin:43px 0 43px 26px ;
+      width: 250px;
+   }
+   .banner_text{
+      font-size: 25px;
+      line-height: 1.2;
+   }
+   .contents_1{
+      flex-wrap: wrap;
+      width: 480px;
+   }
+   .icon {
+      padding: 20px;
+   }
+   .head_title{
+      width: 480px;
+      transform: translate(-8% );
+   }
+   .sub_title{
+      font-size: 50px;
+      
+   }
+   .sub_text{
+      font-size: 24px;
+   }
+   #contents_1{
+      width: 400px;
+      
+   }
+   .box_1{
+      width: 480px;
+      flex-direction: column;
+      transform: translate(-17% );
+   }
+   .box_1_a_m{
+      display: flex;
+      transform: scale(70%);
+      
+   }
+   .box_1_b_m{
+      display: flex;
+      transform: scale(70%)
+   }
+   .box_1_1 {
+      margin-right: 20px;
+   }
+   
+   .box_1_3{
+      margin-right: 20px;
+   }
+   .more_btn{
+      top: 120px;
+   }
+   .contents_wrap_3{
+      width: 480px; height: 300px;
+      /* outline: 1px solid black; */
+      background-position:-200px ;
+      background-size: 200% 100%;
+   }
+   .brand_title h2{
+      font-size: 50px;
+      padding-top: 120px;
+      margin-bottom: 20px;
+   }
+
+   .brand_title p{
+      font-size: 14px;
+   }
+
+   .box_2{
+      height: 799px;
+      flex-direction: column;
+   }
+   #footer_wrap{
+      width: 480px;
+   }
+
+   #footer{
+      flex-direction: column;
+      padding: 54px 190px 0 57px;
+   }
+
+   .copy{
+      font-size: 15px; color: #bbb;
+   }
+
+
+
+
+
+   }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
